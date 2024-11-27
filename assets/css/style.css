@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Poppins";
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    background-color: #003e7b;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box-logotipo,
+.box-menus-infos {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-logotipo,
+.box-menus-infos {
+    width: 25%;
+    /* background-color: aliceblue; */
+
+
+}
+
+
+.box-menu {
+    width: 50%;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+
+.menu {
+    /* background-color: yellow; */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* background-color: red; */
+    /* border: 1px solid gold; */
+    font-weight: bold;
+    color: white;
+
+}
+
+.menu li a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: brown;
+    /* background-color:#003e7b; */
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 1px;
+}
+
+.box-menus-infos {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+
+}
+
+.box-menus-infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+
+
+}
+
+/* End Nav */
+
+/* Start header */
+header {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.info-header {
+    /* background-color: yellowgreen; */
+    color: white;
+    width: 80%;
+
+}
+
+.info-header-buttons {
+    margin-top: 25px;
+}
+
+/* End header */
+
+/* Start section-sobre-cfitel */
+section {
+    margin-bottom: 100px;
+    /* background-color: aqua; */
+}
+
+.section-sobre-cfitel {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.box-interno-sobre-cfitel {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
+
+}
+.w-50{
+    width: 50%;
+}
+
+.sobre-cfitel-item {
+    /* width: 50%; */
+    /* margin: 8px; */
+    /* background-color: red; */
+}
+
+.sobre-cfitel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.texto-descricao {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* text-align: justify; */
+    padding-right: 15px;
+
+}
+
+.sobre-cfitel-item-titulo {
+    color: #003e7b;
+}
+
+.box-botao-sobre-nos {
+    margin-top: 30px;
+}
+
+.botao-cfitel {
+    background-color: #003e7b;
+}
+
+/* End section-sobre-cfitel */
+
+/* Start-Cursos */
+.section-cursos {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 30px; */
+    flex-direction: column;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+.box-interno-section {
+    width: 80%;
+    /* background-color: brown; */
+}
+
+.cursos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.titulo-simples-section {
+    color: #003e7b;
+}
+
+.curso {
+    width: 350px;
+    /* background-color: yellow; */
+    padding: 3px;
+
+
+}
+
+.curso-imagem {
+    height: 260px;
+    width: 100%;
+    background-image: url(../img/course.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.botao-brown {
+    background-color: brown;
+}
+
+.curso-descricao h3,
+h4 {
+    text-align: center;
+}
+
+.curso-descricao h4 {
+    color: #003e7b;
+    /* background-color: yellow; */
+}
+
+.curso-descricao-2 {
+    width: 100%;
+    /* background-color: yellowgreen; */
+
+}
+
+.curso-descricao-2 span {
+    background-color: #003e7b;
+    color: white;
+    width: 32%;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* End-Cursos */
+
+
+/* Start Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #003e7b;
+
+
+}
+
+.footer-items {
+    width: 80%;
+
+}
+
+footer .items {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+footer .items li {
+    list-style: none;
+    color: white;
+}
+
+footer .items a {
+    color: white;
+}
+
+footer .items .item {}
+
+/* End Footer */
+
+
+/* start form  */
+.form-inline{
+    display: flex;
+  flex-direction: column;
+}
+.form-box-input {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.campo {
+    background: transparent;
+    border: 1px solid #555555;
+    height: 54px;
+    font-size: 18px;
+    padding-left: 2px;
+    width: 100%;
+    color: #555555;
+
+}
+.w-100{
+    width: 100%;
+}
+/* End form */
